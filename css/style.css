@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+body {
+    background-image: url('../images/grocery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Header */
+
+.masthead {
+    text-align: center;
+    margin: -2rem auto;
+}
+
+.masthead-heading {
+    font-family: cursive;
+    font-size: 6rem;
+    color: tomato;
+}
+
+
+/* Shopping list form */
+
+.shopping-list {
+    margin: 0 auto;
+    float: none;
+    width: 31rem;
+    padding: 0rem 0rem;
+}
+
+.input {
+    width: 23rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+}
+
+.input-button {
+    width: 7rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    color: white;
+    background-color: tomato;
+    border: 1px solid black;
+    text-align: center;
+    display: inline;
+}
+
+
+/* Bought and to buy lists */
+
+.buy-header,
+.bought-header {
+    border: 1px solid black;
+    padding: 0.6rem 1rem;
+    background-color: forestgreen;
+    border-radius: 0.3rem;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.buy-items {
+    min-height: 20rem;
+    margin-top: 2rem;
+}
+
+.bought-items {
+    min-height: 20rem;
+}
