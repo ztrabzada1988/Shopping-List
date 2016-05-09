@@ -88,3 +88,22 @@ body {
 .bought-items {
     min-height: 20rem;
 }
+
+
+/* List Contents */
+
+.list-contents {
+    margin: 0.15rem 0rem;
+    padding: 0.12rem 0rem;
+    font-size: 2rem;
+    color: white;
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 0.13rem;
+}
+
+.list-contents:hover {
+    text-decoration: line-through;
+    color: gray;
+    border: 1.5px dashed white;
+}
