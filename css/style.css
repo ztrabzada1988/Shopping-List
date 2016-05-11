@@ -28,6 +28,9 @@ body {
 .masthead {
     text-align: center;
     margin: -2rem auto;
+    width: 43rem;
+    background-color: navajowhite;
+    border-radius: 0rem 13rem 0rem 12rem;
 }
 
 .masthead-heading {
@@ -38,6 +41,11 @@ body {
 
 
 /* Shopping list form */
+
+.checkbox {
+    text-decoration: line-through;
+}
+
 
 .shopping-list {
     margin: 0 auto;
@@ -100,6 +108,7 @@ body {
     width: 100%;
     height: 1.5rem;
     border-radius: 0.13rem;
+    list-style-type: none;
 }
 
 .list-contents:hover {
