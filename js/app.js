@@ -36,7 +36,7 @@ function deleteItem() {
 }
 
 // function to delete all the items (clear list)
-function delleteAll() {
+function deleteAll() {
     // alert("I've just activated the delleteAll() function"); //
     $('.buy-list').empty();
 }
@@ -51,7 +51,7 @@ $(document).ready(function () {
 
     /* on click on the #clearall button activate function called deleteAll()*/
     $('#clearall').on('click', function () {
-        delleteAll();
+        deleteAll();
     });
 });
 
@@ -62,3 +62,10 @@ $(document).on('click', '.checkbox-button', checkItem);
 
 /* on click on the .crossbox-button activate function called deleteItem()*/
 $(document).on('click', '.crossbox-button', deleteItem);
+
+// if after item is written in the text box and the return key is pressed, activate the addItem function
+$(document).on('keypress', function (key) {
+    if (key.keyCode == 13) {
+        addItem();
+    };
+})
