@@ -58,7 +58,7 @@ body {
     cursor: pointer;
 }
 
-.checkbox {
+.list {
     text-decoration: line-through;
     color: gray;
     background-color: lightgrey;
