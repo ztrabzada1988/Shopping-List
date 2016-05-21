@@ -26,7 +26,7 @@ function addItem() {
 // function to check one item (already purchased)
 function checkItem() {
     // alert("I've just activated the checkItem() function"); //
-    $(this).parent().toggleClass('checkbox');
+    $(this).parent().toggleClass('list');
 }
 
 // function to delete one item
