@@ -9,7 +9,8 @@ function addItem() {
         alert("Please add something!");
     } else {
         // function to add items in the list
-        $('.buy-list').append("<li class='list'>" + itemValue + "</li>");
+        $('.buy-list').append("<li class='list'>" + '<button class="checkbox-button">✓</button>' + itemValue +
+            '<button class="crossbox-button">x</button>' + "</li>");
     }
     // clear the add-item text box after item is added to the list
     $('.add-item').val("");
@@ -17,7 +18,7 @@ function addItem() {
 
 // function to delete items from the list
 function deleteItem() {
-    $('.list-contents').remove();
+    $('.buy-list').remove();
 }
 
 // function to check items off from the list
