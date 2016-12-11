@@ -18,7 +18,7 @@ function addItem() {
 
 // function to delete items from the list
 function deleteItem() {
-    $(this).remove();
+    $(this).parent().remove();
 }
 
 // function to check items off from the list
