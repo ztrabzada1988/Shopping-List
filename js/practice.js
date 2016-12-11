@@ -52,5 +52,5 @@ $(document).ready(function () {
     // when CLEAR ALL button is click, run clearAll function
     $('#clearall').on("click", function () {
         clearAll();
-    })
+    });
 })
