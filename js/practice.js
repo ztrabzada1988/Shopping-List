@@ -18,17 +18,17 @@ function addItem() {
 
 // function to delete items from the list
 function deleteItem() {
-    $('.buy-list').remove();
+    $(this).parent().remove();
 }
 
 // function to check items off from the list
 function checkItem() {
-    $('')
+    $(this).parent().toggleClass('list');
 }
 
 // function to delete all items in the list
 function clearAll() {
-    location.reload();
+    $('.buy-list').empty();
 }
 
 // USE/CALL FUNCTIONS:
